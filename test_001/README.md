@@ -10,7 +10,7 @@
 
     docker run --rm test:v001
 
-#### Results
+#### Result
 
     Hello, Ann
     Hello, Andrew
@@ -19,3 +19,13 @@
 But, if we change the [names.txt](./names.txt) file, we will also get the previos result.
 Because docker saved the file inside itself.
 
+To fix this, you need to explicitly specify the file when starting the container.
+
+    docker run --rm -v $(pwd)/names.txt:/app/names.txt test:v001
+
+#### New result
+
+    Hello, Ann
+    Hello, Andrew
+    Hello, Kirill
+    Hello, Anton
