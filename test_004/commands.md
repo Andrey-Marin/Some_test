@@ -31,3 +31,11 @@
 ### запуск тестирования
 
 	python manage.py test
+
+### установка heroku
+
+	curl https://cli-assets.heroku.com/install-ubuntu.sh | sh
+
+### установка веб сервера в виртуальную среду
+
+	pipenv install gunicorn
