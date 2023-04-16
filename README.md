@@ -8,3 +8,5 @@ test_002 - simple Anfisa_helper_bot from yandex_free_module.
 test_003 - Hello World app django
 
 test_004 - Two pages app django
+
+test_005 - Message board app django
