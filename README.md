@@ -10,3 +10,5 @@ test_003 - Hello World app django
 test_004 - Two pages app django
 
 test_005 - Message board app django
+
+test_006 - Blog app django
