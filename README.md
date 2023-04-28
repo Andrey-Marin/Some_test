@@ -12,3 +12,5 @@ test_004 - Two pages app django
 test_005 - Message board app django
 
 test_006 - Blog app django
+
+test_007 - Newspaper app django
